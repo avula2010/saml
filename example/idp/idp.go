@@ -7,8 +7,8 @@ import (
 	"flag"
 	"net/url"
 
-	"github.com/avula2010/saml/logger"
-	"github.com/avula2010/saml/samlidp"
+	"github.com/raavula/saml/logger"
+	"github.com/raavula/saml/samlidp"
 	"github.com/zenazn/goji"
 	"golang.org/x/crypto/bcrypt"
 )

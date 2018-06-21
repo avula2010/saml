@@ -16,8 +16,8 @@ import (
 	"time"
 
 	"github.com/beevik/etree"
-	"github.com/avula2010/saml/logger"
-	"github.com/avula2010/saml/xmlenc"
+	"github.com/raavula/saml/logger"
+	"github.com/raavula/saml/xmlenc"
 	dsig "github.com/russellhaering/goxmldsig"
 	"github.com/russellhaering/goxmldsig/etreeutils"
 )

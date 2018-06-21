@@ -64,7 +64,7 @@
 // 	"net/http"
 // 	"net/url"
 // 
-// 	"github.com/avula2010/saml/samlsp"
+// 	"github.com/raavula/saml/samlsp"
 // )
 // 
 // func hello(w http.ResponseWriter, r *http.Request) {
@@ -160,5 +160,5 @@
 // 
 // Security Issues
 // 
-// Please do not report security issues in the issue tracker. Rather, please contact me directly at ross@kndr.org ([PGP Key `8EA205C01C425FF195A5E9A43FA0768F26FD2554`](https://keybase.io/avula2010)).
+// Please do not report security issues in the issue tracker. Rather, please contact me directly at ross@kndr.org ([PGP Key `8EA205C01C425FF195A5E9A43FA0768F26FD2554`](https://keybase.io/raavula)).
 package saml

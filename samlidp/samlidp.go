@@ -9,8 +9,8 @@ import (
 	"net/url"
 	"sync"
 
-	"github.com/avula2010/saml"
-	"github.com/avula2010/saml/logger"
+	"github.com/raavula/saml"
+	"github.com/raavula/saml/logger"
 	"github.com/zenazn/goji/web"
 )
 

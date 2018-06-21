@@ -18,8 +18,8 @@ import (
 	"github.com/zenazn/goji"
 	"github.com/zenazn/goji/web"
 
-	"github.com/avula2010/saml/logger"
-	"github.com/avula2010/saml/samlsp"
+	"github.com/raavula/saml/logger"
+	"github.com/raavula/saml/samlsp"
 )
 
 var links = map[string]Link{}
