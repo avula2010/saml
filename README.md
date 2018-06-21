@@ -65,7 +65,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/crewjam/saml/samlsp"
+	"github.com/avula2010/saml/samlsp"
 )
 
 func hello(w http.ResponseWriter, r *http.Request) {
@@ -160,4 +160,4 @@ The SAML specification is a collection of PDFs (sadly):
 
 ## Security Issues
 
-Please do not report security issues in the issue tracker. Rather, please contact me directly at ross@kndr.org ([PGP Key `78B6038B3B9DFB88`](https://keybase.io/crewjam)).
+Please do not report security issues in the issue tracker. Rather, please contact me directly at ross@kndr.org ([PGP Key `78B6038B3B9DFB88`](https://keybase.io/avula2010)).
