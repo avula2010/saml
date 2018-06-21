@@ -404,8 +404,8 @@ func (sp *ServiceProvider) ParseResponse(req *http.Request, possibleRequestIDs [
 		return nil, retErr
 	}
 	if resp.Destination != sp.AcsURL.String() {
-		retErr.PrivateErr = fmt.Errorf("`Destination` does not match AcsURL (expected %q)", sp.AcsURL.String())
-		return nil, retErr
+		retErr.PrivateErr = fmt.Errorf("`Destination (expected %q)` does not match AcsURL (expected %q)", resp.Destination,sp.AcsURL.String())
+		//return nil, retErr
 	}
 
 	requestIDvalid := false
