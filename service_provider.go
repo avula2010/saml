@@ -403,9 +403,9 @@ func (sp *ServiceProvider) ParseResponse(req *http.Request, possibleRequestIDs [
 		retErr.PrivateErr = fmt.Errorf("cannot unmarshal response: %s", err)
 		return nil, retErr
 	}
-	if resp.Destination != sp.AcsURL.String() {
+	if len(resp.Destination) > 0 && resp.Destination != sp.AcsURL.String() {
 		retErr.PrivateErr = fmt.Errorf("`Destination (expected %q)` does not match AcsURL (expected %q)", resp.Destination,sp.AcsURL.String())
-		//return nil, retErr
+		return nil, retErr
 	}
 
 	requestIDvalid := false
